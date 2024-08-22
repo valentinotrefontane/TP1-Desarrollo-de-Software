@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 1 Desarrollo de Software</title>
+    <style>
+        table {
+            width: 25%;
+            border-collapse: collapse;
+        }
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        header,
+        footer {
+            background-color: grey;
+            color: white;  
+            text-align: center; 
+        }
+        main {
+            padding: 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 4.1 -->
+    <div>
+        <h1>1. Estructura Básica del Documento HTML</h1>
+        <p>Este documento HtML tiene una estructura basica que incluye la declarion de DOCTUPE, etiquetas de metadatos y un título</p>
+    </div>
+
+    <!-- 4.2 -->
+    <div>
+        <h1>2. Encabezados y Propiedades del Texto</h1>
+        <h2><b>Este es un texto en negrita</b></h2>
+        <h3><strong>Este texto es similar al anterior</strong></h3>
+        <h4><em>Este es un texto en cursiva</em></h4>
+        <h5><mark>Este es un texto resaltado</mark></h5>
+        <h6>Este es un texto normal</h6>
+    </div>
+
+    <!-- 4.3 -->
+    <div>
+        <h1>3. Divisiones y Agrupacion de Contenido</h1>
+        <div>
+            <h2><b>Sección 1</b></h2>
+            <p>Contenido de la primera sección agrupada en un div</p>
+        </div>
+        <div>
+            <h2><p>Sección 2</p></h2>
+            <p>Contenido de la segunda sección agrupada en un div</p>
+        </div>   
+    </div>
+
+    <!-- 4.4 -->
+    <div>
+        <h1>4. Enlaces y Listas</h1>
+        <a href="https://google.com" target="_blank">Ir a Google, si necesitas buscar algo</a>
+    </div>
+
+    <div>
+        <h3>Lista Desordenada</h3>
+        <ul>
+            <li>Primer elemento desordenado</li>
+            <li>Segundo elemento desordenado</li>
+            <li>Tercer elemento desordenado</li>
+            <li>Cuarto elemento desordenado</li>
+        </ul>
+        <h3>Lista Ordenada</h3>
+        <ol>
+            <li>Primer elemento ordenado</li>
+            <li>Segundo elemento ordenado</li>
+            <li>Tercer elemento ordenado</li>
+            <li>Cuarto elemento ordenado</li>
+        </ol>
+    </div>
+
+    <!-- 4.5 -->
+    <div>
+        <img src="https://pbs.twimg.com/media/FdSKUwgWIAEJNX0?format=jpg&name=900x900" widht="400px"
+            height="400px" />
+        <br>
+        <video src="https://videos.files.wordpress.com/7fQW0doh/the-cranberries-zombie_dvd.mp4" widht="300px"
+            height="300px" controls />
+    </div>
+    <div>
+        <audio
+            src="https://dn720306.ca.archive.org/0/items/the-cranberries-zombie_202110/The%20Cranberries%20-%20Zombie.mp3"
+            controls />
+    </div>
+
+    <!-- 4.6 -->
+    <h1>6. Tablas</h1>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Celda 1</td>
+                    <td>Celda 2</td>
+                </tr>
+                <tr>
+                    <td>Celda 1</td>
+                    <td>Celda 2</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- 4.7 -->
+    <h1>7. Formularios</h1>
+    <div>
+        <form>
+            <label>Email</label>
+            <input type="email" placeholder="ejemplo@gmail.com"/>
+            <label>Nombre</label>
+            <input type="text" placeholder="Ingrese su nombre"/>
+            <label>Edad</label>
+            <input type="number" placeholder="Ingrese su edad"/>
+                <button type="submit">Enviar Formulario</button>
+        </form>
+    </div>
+    <!-- 4.8 -->
+     <div>
+            <h1>8. Semantica en HTML</h1>
+        <div>
+            <header>
+                <h2>Encabezado Principal</h2>
+            </header>
+            <main>
+                <section>
+                    <h2>Seccion 1 de la pagina</h2>
+                    <p>Primer parrafo de la seccion 1</p>
+                </section>
+                <article>
+                    <h2>Articulo 1</h2>
+                    <p>Este es el primer contenido de la seccion 1</p>
+                </article>
+                <section>
+                    <h2>Seccion 2 de la pagina</h2>
+                    <p>Primer parrafo de la seccion 2</p>
+                </section>
+            </main>
+            <footer>
+                <p>HTML hecho para Dessarrollo de Software</p>
+            </footer>
+        </div>
+     </div>
+</body>
+</html>
